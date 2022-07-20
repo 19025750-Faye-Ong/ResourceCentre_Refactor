@@ -12,6 +12,7 @@ public class Item {
 		this.isAvailable = true;
 	}
 	public String toString() {
+
 		
 		// Write your codes here
 		String ItemInfo = String.format("%-10s %-30s %-10s %-10s", 
@@ -21,8 +22,11 @@ public class Item {
 				dueDate);
 		
 		return ItemInfo;
+
+		
 	}
 	
+
 	public  String showAvailability(boolean isAvailable) {
 		String avail;
 
@@ -41,6 +45,8 @@ public class Item {
 	
 	
 	
+
+
 	public String getAssetTag() {
 		return assetTag;
 	}
