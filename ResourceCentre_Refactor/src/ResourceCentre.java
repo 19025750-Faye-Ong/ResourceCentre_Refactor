@@ -129,7 +129,7 @@ public class ResourceCentre {
 		} else {
 			avail = "No";
 		}
-		return avail;
+		return avail; 
 	}
 
 	//================================= Option 1 View (CRUD - Read) =================================
