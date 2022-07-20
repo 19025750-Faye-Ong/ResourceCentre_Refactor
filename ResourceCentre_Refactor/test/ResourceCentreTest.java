@@ -13,7 +13,7 @@ public class ResourceCentreTest {
 	private Chromebook cb2;
 	
 	private ArrayList<Camcorder> camcorderList;
-	private ArrayList<Chromebook> chromebookList;
+	private ArrayList<Chromebook> chromebookList; 
 	
 	public ResourceCentreTest() {
 		super();
